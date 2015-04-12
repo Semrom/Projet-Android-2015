@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fr.semrom.tapcolors.GameZoneActivity" >
+
+    <LinearLayout
+        android:id="@+id/game_zone_activity_barre_statut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/game_zone_activity_score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_text"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/game_zone_activity_score_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/game_zone_activity_grille_jeu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp" >
+
+<!--  
+        <TextView
+            android:id="@+id/activity_game_zone_1"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_2" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_3"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_4" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_5"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_6" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_7"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_8" />
+	    
+	    <TextView
+	        android:id="@+id/activity_game_zone_9" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_10"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_11" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_12"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_13" />
+	    
+	    <TextView
+            android:id="@+id/activity_game_zone_14"/>
+ 
+	    <TextView
+	        android:id="@+id/activity_game_zone_15" />
+	 -->
+	    
+    
+    </GridLayout>
+
+</LinearLayout>

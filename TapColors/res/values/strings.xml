@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TEXTES POUR LE FICHIER "AndroidManifest" -->
+    <string name="app_name">Tap Colors</string>
+    <string name="title_activity_second">AboutActivity</string>
+    <string name="title_activity_how_to_play">HowToPlayActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TEXTES DU MENU PRINCIPAL -->
+    <string name="title">TAP COLORS</string>
+    <string name="description_logo">Logo du jeu.</string>
+    <string name="play_button">Jouer</string>
+    <string name="how_to_play_text">Comment jouer ?</string>
+    <string name="about_text">À Propos</string>
+
+    <!-- TEXTES DES ACTIVITES "Comment jouer ?" ET "A Propos" -->
+    <string name="cancel_button">Retour</string>
+    <string name="about_description">        Tap Colors est une application Android que j\'ai développé durant ma seconde année en DUT Informatique 
+        dans le cadre des cours de développements mobiles. \n\n Romain Semler ©2015</string>
+    <string name="howTo_description">        Touchez les couleurs qui s\'affichent sur la grille pour les faire disparaître et pour gagner des points, 
+        mais attention, si vous n\'êtes pas assez rapide ou si vous touchez la couleur rouge, c\'est le Game Over ! \n\n Combien de temps tiendrez-vous ?</string>
+    <string name="title_activity_game_zone">GameZoneActivity</string>
+
+    <!-- TEXTES DE LA ZONE DE JEU -->
+    <string name="score_text">Score :</string>
+    <string name="pause_text">Pause</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+    <string name="life"></string>
+    
+    <!-- TEXTES DE L'ACTIVITE GAME OVER -->
+	<string name="game_over_text">Game Over</string>
+	<string name="game_over_case_rouge">Vous avez touché une case de couleur rouge ! \n\n Votre score :</string>
+	<string name="game_over_time_out">Vous n\'avez pas été assez rapide ! \n\n Votre score :</string>
+	<string name="replay_button">Rejouer</string>
+	<string name="menu_button">Menu Principal</string>
+	<string name="high_score_text">Meilleur score : </string>
+	
+</resources>
