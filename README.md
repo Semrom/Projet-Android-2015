@@ -7,7 +7,4 @@ Le but du projet était d'apprendre à programmer une application Android en Jav
 
 Plus d'informations : https://semrom.fr/projets/tap-colors.php
 
-Téléchargement de l'application : 
-https://play.google.com/store/apps/details?id=fr.semrom.tapcolors
-
 Romain Semler ©2015
